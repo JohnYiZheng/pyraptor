@@ -1,4 +1,9 @@
 """Run query with RAPTOR algorithm"""
+import pathlib
+import sys
+project_dir = str(pathlib.Path(__file__).absolute().parent.parent)
+sys.path.append(project_dir)
+
 import argparse
 from typing import Dict
 

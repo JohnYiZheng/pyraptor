@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DEBUG raptor",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pyraptor/query_raptor.py",
+            "args": [
+                "-i", "/Users/zhengyi/Projects/pyraptor/pyraptor/data/output"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "DEBUG timetable",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pyraptor/gtfs/timetable.py",
+            "args": [
+                "-i", "/Users/zhengyi/Data/GTFS/Dutch/gtfs",
+                "-o", "/Users/zhengyi/Projects/pyraptor/pyraptor/data/output",
+                "-d", "20230709",
+                "--icd"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

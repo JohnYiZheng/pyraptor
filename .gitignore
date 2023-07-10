@@ -1,6 +1,6 @@
 .venv/
 .idea/
-.vscode/
+# .vscode/
 .devcontainer/
 
 # Byte-compiled / optimized / DLL files

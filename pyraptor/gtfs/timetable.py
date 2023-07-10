@@ -1,4 +1,9 @@
 """Parse timetable from GTFS files"""
+import pathlib
+import sys
+project_dir = str(pathlib.Path(__file__).absolute().parent.parent.parent)
+sys.path.append(project_dir)
+
 import os
 import argparse
 from typing import List
